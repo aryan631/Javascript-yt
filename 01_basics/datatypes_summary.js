@@ -47,3 +47,21 @@ console.log(typeof myFunction);
 console.log(typeof myObj);
 console.log(typeof heros);
 
+//STACK (Primitive) , Heap(Non-Primitive)
+
+let myYouTubename="hiteshchoudhary.com"
+
+let anothername=myYouTubename
+anothername="chaiaurcode"
+console.log(myYouTubename);
+console.log(anothername);
+
+let myUser={
+    email:"user@gmaul.com",
+    id:8721,
+}
+
+let myUser2=myUser
+myUser2.email="dagger@gmail.com"
+console.log(myUser.email);
+console.log(myUser2.email);
